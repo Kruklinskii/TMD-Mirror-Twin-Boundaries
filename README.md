@@ -4,6 +4,7 @@ This PYTHON application generates a POSCAR file for a unit cell of 4|4P mirror t
 
 ## Required third‑party packages
 ---
+- Python
 - numpy 
 - pymatgen
 

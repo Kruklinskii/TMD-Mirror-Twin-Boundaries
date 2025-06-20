@@ -7,7 +7,7 @@ This PYTHON application generates a POSCAR file for a unit cell of 4|4P mirror t
 - pymatgen
 
 ## config.txt Format
-Each line contains the following data: \
+Each line contains the following data:
 1. Chemical symbol for the transition metal.
 2. Chemical symbol for the chalcogen.
 3. Lattice parameter in angstrom (distance between neighbouring atoms of the same species).

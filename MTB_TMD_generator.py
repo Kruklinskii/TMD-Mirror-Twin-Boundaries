@@ -29,7 +29,7 @@ config.txt format remarks:
 - Avoid anything that does not adhere to the config format.
 - Avoid unnecessary spaces.
 - The superlattice vectors in (7) and (8) define the lattice vectors of the new system and are to be written as three numbers separated by spaces, e.g. "1 2 0".
-- Superlattice vectors are defined as fractional coordinates of the original TMD lattice vectors $\overrightarrow{a} = (l, 0, 0)$, $\overrightarrow{b} = (l/2, l*\sqrt{3}/2, 0)$ and $\overrightarrow{c} = (0, 0, vacuum)$ where $l$ is a lattice parameter in (3).
+- Superlattice vectors are defined as fractional coordinates of the original TMD lattice vectors a = (l, 0, 0), b = (l/2, l*sqrt{3}/2, 0) and c = (0, 0, vacuum) where l is a lattice parameter in (3).
 
 ------------------------------------------------------------------------
 config.txt Example

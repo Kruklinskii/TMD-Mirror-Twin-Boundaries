@@ -6,6 +6,8 @@ This PYTHON application generates a POSCAR file for a unit cell of 4|4P mirror t
 - numpy 
 - pymatgen
 
+pip install -r requirements.txt
+
 ## config.txt Format
 Each line contains the following data:
 1. Chemical symbol for the transition metal.

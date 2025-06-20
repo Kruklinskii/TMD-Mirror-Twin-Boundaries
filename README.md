@@ -1,15 +1,12 @@
 # MTB TMD Generator Documentation
----
 This PYTHON application generates a POSCAR file for a unit cell of 4|4P mirror twin boundary (MTB) triangular structures for a given transition metal dichalcogenide (TMD). The program uses a config.txt file to read all the necessary input data. The output file has a name format of e.g. POSCAR_Te98Mo55_MTB which indicated the atomic composition of the resulting primitive unit cell.
 
 ## Required third‑party packages
----
 - Python
 - numpy 
 - pymatgen
 
 ## config.txt Format
----
 Each line contains the following data: \
 1. Chemical symbol for the transition metal.
 2. Chemical symbol for the chalcogen.
@@ -30,7 +27,6 @@ config.txt format remarks:
 - Superlattice vectors are defined as fractional coordinates of the original TMD lattice vectors $\overrightarrow{a} = (l, 0, 0)$, $\overrightarrow{b} = (l/2, l*\sqrt{3}/2, 0)$ and $\overrightarrow{c} = (0, 0, vacuum)$ where $l$ is a lattice parameter in (3).
 
 ## config.txt Example
----
 Mo \
 Te \
 3.52 \
